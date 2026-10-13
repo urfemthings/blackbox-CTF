@@ -20,3 +20,5 @@ Catatan investigasi dan *reconnaissance* target web CTF untuk modul *Quality Con
 ## Conclusion
 Target menggunakan pengaman standar industri modern (Laravel Sanctum/Middleware Session & CSRF). Eksploitasi langsung dari luar tanpa akun atau *credential leak* tidak dapat menembus lapisan validasi server.
 EOF
+
+Dan aku coba brute eh ternayta tembus Target: https://ftir.arifnurdiyansyah.my.id/login | User: admin | Password: password | Reason: Laravel: Error gone=True Form gone=False Diff=39
