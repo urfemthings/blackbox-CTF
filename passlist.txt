@@ -23,11 +23,14 @@ webmaster
 maintenance 
 techsupport 
 letmein 
+abc123
 logon 
 Passw@rd 
 Passw@rd123 
 alpine 
 alpha 
+letmein
+charley
 beta 
 gamma 
 654321 
@@ -69,6 +72,7 @@ hannah
 amanda 
 loveyou 
 pretty 
+charley
 basketball 
 andrew 
 angels 
@@ -76,6 +80,7 @@ tweety
 flower 
 playboy 
 hello 
+prototype
 elizabeth 
 hottie 
 tinkerbell 
@@ -950,3 +955,4 @@ pamulang123
 10203040506 
 12345678900 
 99999999999
+password
