@@ -22,3 +22,28 @@ Target menggunakan pengaman standar industri modern (Laravel Sanctum/Middleware 
 EOF
 
 Dan aku coba brute eh ternayta tembus Target: https://ftir.arifnurdiyansyah.my.id/login | User: admin | Password: password | Reason: Laravel: Error gone=True Form gone=False Diff=39
+
+
+
+trus nih alur kerjanya 
+
+# FTIR Blackbox - Brute Force with CSRF Bypass
+
+> Lab: ftir.arifnurdiyansyah.my.id | Type: Blackbox Web Pentest
+
+### Vulnerability
+Login page menggunakan CSRF token dinamis + validasi panjang password.
+
+### How I Solved It
+1.  Ambil CSRF token dulu via GET /login
+2.  Pakai session yang sama buat POST brute force
+3.  Deteksi sukses pakai baseline diff (response length), bukan keyword
+
+### Tool
+Custom Python script (requests + threading) - tanpa root, jalan di Termux
+
+### Proof
+[Screenshot di sini] <- upload screenshot lu yang berhasil masuk admin
+
+### How to Run
+python3 brute.py
