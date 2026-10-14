@@ -43,7 +43,7 @@ Login page menggunakan CSRF token dinamis + validasi panjang password.
 Custom Python script (requests + threading) - tanpa root, jalan di Termux
 
 ### Proof
-[Screenshot di sini] <- upload screenshot lu yang berhasil masuk admin
+[https://github.com/urfemthings/blackbox-CTF/blob/main/Screenshot_20261013_180225.jpg] 
 
 ### How to Run
 python3 brute.py
