@@ -50,4 +50,4 @@ python3 brute.py
 
 ### fix
 
-selalu menggunakan recapca ,gunakan password yang kuat, aktif kan firewall Dan setting yang bener 
+selalu menggunakan recapca ,gunakan password yang kuat, aktif kan firewall Dan setting yang bener Dan gunakan time limeted
