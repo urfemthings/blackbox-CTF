@@ -47,3 +47,7 @@ Custom Python script (requests + threading) - tanpa root, jalan di Termux
 
 ### How to Run
 python3 brute.py
+
+### fix
+
+selalu menggunakan recapca ,gunakan password yang kuat, aktif kan firewall Dan setting yang bener 
